@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace QuanLyDaiDoi
 {
-    public partial class Form1 : MetroForm
+    public partial class FrmMain : MetroForm
     {
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
         }

@@ -17,5 +17,15 @@ namespace QuanLyDaiDoi.UI
         {
             InitializeComponent();
         }
+
+        public object FrmMain { get; private set; }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            FrmMain form = new FrmMain();
+            this.Hide();
+            form.ShowDialog();
+            this.Close();
+        }
     }
 }

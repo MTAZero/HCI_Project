@@ -1,6 +1,6 @@
 ﻿namespace QuanLyDaiDoi
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -37,16 +37,16 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(20, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1070, 599);
+            this.panel1.Size = new System.Drawing.Size(1191, 706);
             this.panel1.TabIndex = 0;
             // 
-            // Form1
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1110, 679);
+            this.ClientSize = new System.Drawing.Size(1231, 786);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "FrmMain";
             this.Text = "QUẢN LÝ ĐẠI ĐỘI";
             this.ResumeLayout(false);
 
