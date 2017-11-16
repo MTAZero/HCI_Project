@@ -1,5 +1,4 @@
-﻿using MetroFramework.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyDaiDoi
+namespace QuanLyDaiDoi.UI
 {
-    public partial class FrmMain : MetroForm
+    public partial class FrmMain : Form
     {
         public FrmMain()
         {
             InitializeComponent();
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            panelMain.Controls.Clear();
+            FrmCoCauToChuc form = new FrmCoCauToChuc();
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(form);
+            form.Show();
         }
     }
 }
