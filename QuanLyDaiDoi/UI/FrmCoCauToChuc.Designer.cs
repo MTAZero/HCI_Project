@@ -88,9 +88,9 @@
             this.groupBox1.Controls.Add(this.dgvDsHocVienMain);
             this.groupBox1.Controls.Add(this.panel4);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(497, 43);
+            this.groupBox1.Location = new System.Drawing.Point(454, 43);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(566, 530);
+            this.groupBox1.Size = new System.Drawing.Size(609, 530);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách học viên";
@@ -101,13 +101,21 @@
             this.dgvDsHocVienMain.Location = new System.Drawing.Point(3, 20);
             this.dgvDsHocVienMain.MainView = this.dgvDanhSachHocVien;
             this.dgvDsHocVienMain.Name = "dgvDsHocVienMain";
-            this.dgvDsHocVienMain.Size = new System.Drawing.Size(560, 463);
+            this.dgvDsHocVienMain.Size = new System.Drawing.Size(603, 463);
             this.dgvDsHocVienMain.TabIndex = 9;
             this.dgvDsHocVienMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvDanhSachHocVien});
             // 
             // dgvDanhSachHocVien
             // 
+            this.dgvDanhSachHocVien.Appearance.HeaderPanel.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.dgvDanhSachHocVien.Appearance.HeaderPanel.Options.UseFont = true;
+            this.dgvDanhSachHocVien.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.dgvDanhSachHocVien.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.dgvDanhSachHocVien.Appearance.Row.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.dgvDanhSachHocVien.Appearance.Row.Options.UseFont = true;
+            this.dgvDanhSachHocVien.Appearance.Row.Options.UseTextOptions = true;
+            this.dgvDanhSachHocVien.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
             this.dgvDanhSachHocVien.ColumnPanelRowHeight = 30;
             this.dgvDanhSachHocVien.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.STT,
@@ -167,7 +175,7 @@
             this.GioiTinh.FieldName = "GioiTinh";
             this.GioiTinh.Name = "GioiTinh";
             this.GioiTinh.Visible = true;
-            this.GioiTinh.VisibleIndex = 4;
+            this.GioiTinh.VisibleIndex = 3;
             this.GioiTinh.Width = 118;
             // 
             // NgaySinh
@@ -176,7 +184,7 @@
             this.NgaySinh.FieldName = "NgaySinh";
             this.NgaySinh.Name = "NgaySinh";
             this.NgaySinh.Visible = true;
-            this.NgaySinh.VisibleIndex = 5;
+            this.NgaySinh.VisibleIndex = 2;
             this.NgaySinh.Width = 118;
             // 
             // panel4
@@ -188,7 +196,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(3, 483);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(560, 44);
+            this.panel4.Size = new System.Drawing.Size(603, 44);
             this.panel4.TabIndex = 8;
             // 
             // btnThemHocVien
@@ -237,7 +245,7 @@
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox2.Location = new System.Drawing.Point(0, 43);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(497, 530);
+            this.groupBox2.Size = new System.Drawing.Size(454, 530);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách lớp";
@@ -248,13 +256,24 @@
             this.dgvDsLopMain.Location = new System.Drawing.Point(3, 20);
             this.dgvDsLopMain.MainView = this.dgvDsLop;
             this.dgvDsLopMain.Name = "dgvDsLopMain";
-            this.dgvDsLopMain.Size = new System.Drawing.Size(491, 463);
+            this.dgvDsLopMain.Size = new System.Drawing.Size(448, 463);
             this.dgvDsLopMain.TabIndex = 9;
             this.dgvDsLopMain.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.dgvDsLop});
             // 
             // dgvDsLop
             // 
+            this.dgvDsLop.Appearance.HeaderPanel.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.dgvDsLop.Appearance.HeaderPanel.Options.UseFont = true;
+            this.dgvDsLop.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.dgvDsLop.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.dgvDsLop.Appearance.HeaderPanel.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.dgvDsLop.Appearance.Row.Font = new System.Drawing.Font("Times New Roman", 10F);
+            this.dgvDsLop.Appearance.Row.Options.UseFont = true;
+            this.dgvDsLop.Appearance.Row.Options.UseTextOptions = true;
+            this.dgvDsLop.Appearance.Row.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            this.dgvDsLop.Appearance.ViewCaption.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.dgvDsLop.Appearance.ViewCaption.Options.UseFont = true;
             this.dgvDsLop.ColumnPanelRowHeight = 30;
             this.dgvDsLop.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn4,
@@ -305,7 +324,7 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(3, 483);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(491, 44);
+            this.panel5.Size = new System.Drawing.Size(448, 44);
             this.panel5.TabIndex = 8;
             // 
             // btnThemLop
@@ -370,12 +389,14 @@
             // 
             // searchControl1
             // 
-            this.searchControl1.Location = new System.Drawing.Point(95, 6);
+            this.searchControl1.Location = new System.Drawing.Point(107, 4);
             this.searchControl1.Name = "searchControl1";
+            this.searchControl1.Properties.Appearance.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.searchControl1.Properties.Appearance.Options.UseFont = true;
             this.searchControl1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Repository.ClearButton(),
             new DevExpress.XtraEditors.Repository.SearchButton()});
-            this.searchControl1.Size = new System.Drawing.Size(195, 20);
+            this.searchControl1.Size = new System.Drawing.Size(195, 24);
             this.searchControl1.TabIndex = 0;
             // 
             // FrmCoCauToChuc

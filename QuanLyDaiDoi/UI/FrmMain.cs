@@ -27,5 +27,15 @@ namespace QuanLyDaiDoi.UI
             panelMain.Controls.Add(form);
             form.Show();
         }
+
+        private void simpleButton5_Click(object sender, EventArgs e)
+        {
+            panelMain.Controls.Clear();
+            FrmKeHoachCongTac form = new FrmKeHoachCongTac();
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(form);
+            form.Show();
+        }
     }
 }
