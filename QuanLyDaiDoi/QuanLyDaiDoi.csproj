@@ -109,6 +109,12 @@
     <Compile Include="UI\FrmCongTacChinhTri.Designer.cs">
       <DependentUpon>FrmCongTacChinhTri.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmLapKeHoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmLapKeHoach.Designer.cs">
+      <DependentUpon>FrmLapKeHoach.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmCongTacChinhTri.resx">
       <DependentUpon>FrmCongTacChinhTri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmLapKeHoach.resx">
+      <DependentUpon>FrmLapKeHoach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

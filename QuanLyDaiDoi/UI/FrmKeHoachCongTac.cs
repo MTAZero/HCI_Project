@@ -29,5 +29,11 @@ namespace QuanLyDaiDoi.UI
                 new {STT = "5", ThoiGian = "22/11/2017 - 22/12/2017" ,TenCongViec = "Kỉ niệm ngày thành lập QĐND" , MucDo = "Đặc biệt quan trọng", TienDo = "Chưa thực hiện", GhiChu = ""}
             };
         }
+
+        private void btnLapKeHoach_Click(object sender, EventArgs e)
+        {
+            FrmLapKeHoach form = new FrmLapKeHoach();
+            form.ShowDialog();
+        }
     }
 }

@@ -212,6 +212,7 @@
             this.btnLapKeHoach.Size = new System.Drawing.Size(210, 52);
             this.btnLapKeHoach.TabIndex = 8;
             this.btnLapKeHoach.Text = "Lập kế hoạch";
+            this.btnLapKeHoach.Click += new System.EventHandler(this.btnLapKeHoach_Click);
             // 
             // FrmKeHoachCongTac
             // 
