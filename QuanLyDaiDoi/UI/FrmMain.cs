@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetroFramework.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace QuanLyDaiDoi.UI
 {
-    public partial class FrmMain : Form
+    public partial class FrmMain : MetroForm
     {
         public FrmMain()
         {

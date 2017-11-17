@@ -109,6 +109,30 @@
     <Compile Include="UI\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmSuaLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmSuaLop.Designer.cs">
+      <DependentUpon>FrmSuaLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmSuaHocVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmSuaHocVien.Designer.cs">
+      <DependentUpon>FrmSuaHocVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmThemHocVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmThemHocVien.Designer.cs">
+      <DependentUpon>FrmThemHocVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmThemLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmThemLop.Designer.cs">
+      <DependentUpon>FrmThemLop.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -128,6 +152,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSuaLop.resx">
+      <DependentUpon>FrmSuaLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSuaHocVien.resx">
+      <DependentUpon>FrmSuaHocVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmThemHocVien.resx">
+      <DependentUpon>FrmThemHocVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmThemLop.resx">
+      <DependentUpon>FrmThemLop.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
