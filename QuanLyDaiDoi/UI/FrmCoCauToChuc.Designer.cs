@@ -166,7 +166,7 @@
             this.CapBac.FieldName = "CapBac";
             this.CapBac.Name = "CapBac";
             this.CapBac.Visible = true;
-            this.CapBac.VisibleIndex = 3;
+            this.CapBac.VisibleIndex = 4;
             this.CapBac.Width = 122;
             // 
             // GioiTinh
@@ -175,7 +175,7 @@
             this.GioiTinh.FieldName = "GioiTinh";
             this.GioiTinh.Name = "GioiTinh";
             this.GioiTinh.Visible = true;
-            this.GioiTinh.VisibleIndex = 3;
+            this.GioiTinh.VisibleIndex = 5;
             this.GioiTinh.Width = 118;
             // 
             // NgaySinh
@@ -184,7 +184,7 @@
             this.NgaySinh.FieldName = "NgaySinh";
             this.NgaySinh.Name = "NgaySinh";
             this.NgaySinh.Visible = true;
-            this.NgaySinh.VisibleIndex = 2;
+            this.NgaySinh.VisibleIndex = 3;
             this.NgaySinh.Width = 118;
             // 
             // panel4

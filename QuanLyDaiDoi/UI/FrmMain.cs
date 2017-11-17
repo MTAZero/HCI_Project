@@ -37,5 +37,15 @@ namespace QuanLyDaiDoi.UI
             panelMain.Controls.Add(form);
             form.Show();
         }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            panelMain.Controls.Clear();
+            FrmLyLichQuanNhan form = new FrmLyLichQuanNhan();
+            form.TopLevel = false;
+            form.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(form);
+            form.Show();
+        }
     }
 }

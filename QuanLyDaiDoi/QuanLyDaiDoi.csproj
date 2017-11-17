@@ -97,17 +97,29 @@
     <Compile Include="UI\FrmCoCauToChuc.Designer.cs">
       <DependentUpon>FrmCoCauToChuc.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\FrmLyLichChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmLyLichChiTiet.Designer.cs">
+      <DependentUpon>FrmLyLichChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrmLyLichQuanNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmLyLichQuanNhan.Designer.cs">
+      <DependentUpon>FrmLyLichQuanNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FrmKeHoachCongTac.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\FrmKeHoachCongTac.Designer.cs">
       <DependentUpon>FrmKeHoachCongTac.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmCongTacChinhTri.cs">
+    <Compile Include="UI\FrmChiTietKeHoach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\FrmCongTacChinhTri.Designer.cs">
-      <DependentUpon>FrmCongTacChinhTri.cs</DependentUpon>
+    <Compile Include="UI\FrmChiTietKeHoach.Designer.cs">
+      <DependentUpon>FrmChiTietKeHoach.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\FrmLapKeHoach.cs">
       <SubType>Form</SubType>
@@ -173,11 +185,17 @@
     <EmbeddedResource Include="UI\FrmCoCauToChuc.resx">
       <DependentUpon>FrmCoCauToChuc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmLyLichChiTiet.resx">
+      <DependentUpon>FrmLyLichChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmLyLichQuanNhan.resx">
+      <DependentUpon>FrmLyLichQuanNhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmKeHoachCongTac.resx">
       <DependentUpon>FrmKeHoachCongTac.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\FrmCongTacChinhTri.resx">
-      <DependentUpon>FrmCongTacChinhTri.cs</DependentUpon>
+    <EmbeddedResource Include="UI\FrmChiTietKeHoach.resx">
+      <DependentUpon>FrmChiTietKeHoach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmLapKeHoach.resx">
       <DependentUpon>FrmLapKeHoach.cs</DependentUpon>

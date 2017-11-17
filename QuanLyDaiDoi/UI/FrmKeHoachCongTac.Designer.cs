@@ -200,6 +200,7 @@
             this.btnChiTietKeHoach.Size = new System.Drawing.Size(210, 52);
             this.btnChiTietKeHoach.TabIndex = 9;
             this.btnChiTietKeHoach.Text = "Chi tiết kế hoạch";
+            this.btnChiTietKeHoach.Click += new System.EventHandler(this.btnChiTietKeHoach_Click);
             // 
             // btnLapKeHoach
             // 

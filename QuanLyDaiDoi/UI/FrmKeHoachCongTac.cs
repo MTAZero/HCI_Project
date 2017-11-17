@@ -35,5 +35,22 @@ namespace QuanLyDaiDoi.UI
             FrmLapKeHoach form = new FrmLapKeHoach();
             form.ShowDialog();
         }
+
+        private void btnChiTietKeHoach_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string ten = (string) dgvDanhSachKeHoach.GetFocusedRowCellValue("TenCongViec");
+                FrmChiTietKeHoach form = new FrmChiTietKeHoach(ten);
+                form.ShowDialog();
+            }
+            catch
+            {
+                MessageBox.Show("Chưa có kế hoạch nào được chọn",
+                                "Thông báo",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error);
+            }
+        }
     }
 }
